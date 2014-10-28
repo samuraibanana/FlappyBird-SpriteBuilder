@@ -150,7 +150,7 @@
         
         // if the left corner is one complete width off the screen, move it to the right
         if (groundScreenPosition.x <= (-1 * ground.contentSize.width)) {
-            ground.position = ccp(ground.position.x + 3 * ground.contentSize.width, ground.position.y);
+            ground.position = ccp(ground.position.x + 5 * ground.contentSize.width, ground.position.y);
         }
         for (CCNode *bush in _bushes){
             //move bush
